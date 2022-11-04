@@ -11,3 +11,4 @@ path yaml: /content/yolov5/data/dataset.yaml
 
 
 
+run on colab
