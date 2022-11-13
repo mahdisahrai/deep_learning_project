@@ -1,6 +1,8 @@
+#clone git
 !git clone https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life.git
 
 
+#downloading and coping other libraries in main folder
 %cd /content/Bringing-Old-Photos-Back-to-Life/Face_Enhancement/models/networks
 !git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
 !cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
@@ -30,15 +32,16 @@
 
 
 
-
+#installing requirements.txt
 !pip install -r /content/Bringing-Old-Photos-Back-to-Life/requirements.txt
 
 
+#final , run
 !python run.py --input_folder /content/Bringing-Old-Photos-Back-to-Life/test_images/old --output_folder /content/Bringing-Old-Photos-Back-to-Life/output --GPU 0
 
 
 
-
+#showing
 from IPython.display import Image
 
 #old image
