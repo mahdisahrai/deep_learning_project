@@ -1,6 +1,7 @@
 path:
 
 
+tip: If the test_images and output folders do not exist, they must be created
 
 --------------------------------------------------------------------
 
