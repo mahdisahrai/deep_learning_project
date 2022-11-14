@@ -1,6 +1,6 @@
 ## About this project:
 
-### In this repository, I have done projects about deep learning with opencv and I hope it will be useful for you. also I want to introduce three YouTube pages that made educational videos about this subject
+### In this repository, I have done projects about deep learning and I hope it will be useful for you. also I want to introduce three YouTube pages that made educational videos about this subject
 
 
 -----------------------------------------------------------------------------------
