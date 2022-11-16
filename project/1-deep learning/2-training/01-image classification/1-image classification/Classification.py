@@ -15,7 +15,7 @@ import pandas as pd
 import seaborn as sns; sns.set()
 
 
-
+#x is image , y = is label
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
 
 
